@@ -1,0 +1,27 @@
+section {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+    height: 250px;
+    padding: 20px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+article img {
+    height: 240px;
+}
+
+main {
+    padding: 30px 50px;
+}
+
+h1 {
+    color: #83a166;
+}

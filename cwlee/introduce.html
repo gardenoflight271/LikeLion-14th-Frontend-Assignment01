@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRODUCE</title>
+    <link rel="stylesheet" href="./css/frame.css" />
+    <link rel="stylesheet" href="./css/introduce.css" />
+</head>
+
+<body>
+    <nav> <!-- html 조건 4번 만족 -->
+        <ul>
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./introduce.html">INTRODUCE</a></li>
+            <li><a href="./gallery.html">GALLERY</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>HOBBY</h1>
+            <ul>
+                <li>그림</li>
+                <li>뜨개질</li>
+                <li>베이킹</li>
+                <li>게임</li>
+            </ul>
+            <a href="./gallery.html">취미 사진 보러가기</a>
+        </section>
+        <section>
+            <h1>CLASS SCHEDULE</h1>
+            <table border="1"> <!-- html 조건 6번 만족 -->
+                <caption>2026-1학기 시간표</caption>
+                <tr>
+                    <th></th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                </tr>
+                <tr>
+                    <th>9:00</th>
+                    <td rowspan="2" class="course">3D캐릭터애니메이션1</td>
+                    <td rowspan="6"></td>
+                    <td rowspan="2" class="course">데이터베이스</td>
+                    <td rowspan="6"></td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <th>10:30</th>
+                </tr>
+                <tr>
+                    <th>12:00</th>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2" class="course">웹디자인</td>
+                </tr>
+                <tr>
+                    <th>13:30</th>
+                </tr>
+                <tr>
+                    <th>15:00</th>
+                    <td class="course">컴퓨터구조</td>
+                    <td class="course">컴퓨터구조</td>
+                    <td rowspan="2" class="course">Javascript프로그래밍</td>
+                </tr>
+                <tr>
+                    <th>16:30</th>
+                    <td class="course">Java프로그래밍</td>
+                    <td class="course">Java프로그래밍</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h1>ACTIVITY</h1>
+            <ul>
+                <li>멋쟁이사자처럼 14기 아기사자</li>
+                <li>애니띵 4기 부회장</li>
+                <li>리코코 3기 회장</li>
+            </ul>
+        </section>
+        <section>
+            <h1>CONTACT</h1>
+            <ul>
+                <li>phone: 010-5861-2731</li>
+                <li>email: hyr.chaewon@gmail.com</li>
+                <li>instagram: _cw_0v0._</li>
+            </ul>
+        </section>
+        <section>
+            <h1>FEEDBACK</h1>
+            <form> <!-- html 조건 8번 만족 -->
+                <p>
+                    <label for="name">이름</label>
+                    <input name="name" type="text">
+                </p>
+                <p>
+                    <label for="email">이메일</label>
+                    <input name="email" type="email">
+                </p>
+                <p>
+                    <label for="readability">가독성</label>
+                    <input name="readability" type="radio">☆
+                    <input name="readability" type="radio">☆☆
+                    <input name="readability" type="radio">☆☆☆
+                </p>
+                <p>
+                    <label for="design">디자인</label>
+                    <input name="design" type="radio">☆
+                    <input name="design" type="radio">☆☆
+                    <input name="design" type="radio">☆☆☆
+                </p>
+                <p>
+                    <textarea rows="5" cols="30" placeholder="기타 피드백을 입력해 주세요"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="제출">
+                </p>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

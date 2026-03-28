@@ -1,0 +1,22 @@
+main {
+    text-align: center;
+    /*css 조건 3번 만족*/
+}
+
+img {
+    width: 150px;
+}
+
+main {
+    height: 350px;
+}
+
+h1 {
+    color: #83a166;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: #83a166;
+}

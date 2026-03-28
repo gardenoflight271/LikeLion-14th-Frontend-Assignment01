@@ -1,0 +1,28 @@
+h1 {
+    color: #83a166;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    table-layout: fixed;
+    text-align: center;
+}
+
+tr {
+    height: 70px;
+}
+
+
+.course {
+    background-color: #efe2dc;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section li {
+    font-size: 130%;
+    list-style-type: square;
+}

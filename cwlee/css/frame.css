@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2);
+    font-weight: 200;
+    font-display: swap;
+}
+
+body {
+    font-family: 'MaruBuri';
+    /*css 조건 5번 만족*/
+    width: 1000px;
+    margin: 100px auto;
+    background-image: url(https://images.unsplash.com/photo-1764437835866-73c7d0961c46?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /*css 조건 4번 만족*/
+}
+
+nav {
+    height: 90px;
+    text-align: center;
+    background-color: #d0a08b;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 30px 80px;
+    font-size: 140%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    background-color: #f8f6ee;
+    padding: 30px 100px;
+}
